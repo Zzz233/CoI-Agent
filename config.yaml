@@ -1,0 +1,26 @@
+SEMENTIC_SEARCH_API_KEY: ""
+
+is_azure : True # if false, it is openai
+
+# set it if you set is_azure to True
+AZURE_OPENAI_ENDPOINT : ""
+AZURE_OPENAI_KEY : ""
+AZURE_OPENAI_API_VERSION : ""
+
+# set it if you set is_azure to False
+OPENAI_API_KEY: ""
+OPENAI_BASE_URL: ""
+
+# if not set it will be set to the same as main llm
+EMBEDDING_API_KEY: ""
+EMBEDDING_API_ENDPOINT: ""
+EMBEDDING_MODEL: ""
+
+MAIN_LLM_MODEL: "" # "gpt-4o" or ...
+
+CHEAP_LLM_MODEL: "" # "gpt-4o" or ...
+
+ES_CERT_FINGERPRINT: "6C:7E:87:6D:3A:88:CE:6F:1E:80:97:D1:06:DA:2A:68:D5:1D:1C:E1:79:82:93:4F:94:2B:49:89:51:B8:60:E8"
+ES_ADDRESS: "https://47.120.4.207:9201"
+ES_USERNAME: "elastic"
+ES_PASSWORD: "kZmU-KLy*5RN3SmkEBIh"
